@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <div>Hello</div>
-      <h1>{counter}</h1>
+      <div> <h1>{counter}</h1></div>
       <button onClick={() => changeCounter(counter + 1)}>Plus</button>
       <button onClick={() => changeCounter(counter - 1)}>Minus</button>
     </div>
